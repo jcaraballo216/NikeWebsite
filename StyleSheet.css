@@ -26,4 +26,19 @@
     padding:5px;
 
 }
+.threeCols {
+    column-count: 3;
+    column-gap: 50px;
+    margin-top:50px;
+}
+div p {
+    column-span:none;
+}
+p {
+    text-align:justify;
+    margin-bottom:100px;
+}
+div p {
+    column-span: none;
+}
 
